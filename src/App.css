@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+div {
+  position: relative;
+}
+
+.title  {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.game-board {
+  margin: 10px auto;
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+
+  border: 1px solid black;
+}
+
+.game-square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 33.3%;
+  height: 33.5%;
+
+  border: 1px solid black;
+
+  cursor: pointer;
+}
+
+.game-square:hover {
+  background: pink;
+  opacity: .9;
+}
+
+.game-square:focus {
+  background: white;
+}
+
+.check-motion {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.check-motion-draw {
+  opacity: 0;
+}
+
+.check-motion-draw.active {
+  opacity: 1;
+}
+
+.btn-start {
+  position: absolute;
+  left: 47.5%;
+  padding: 5px 10px;
+  margin-top: 10px;
+  opacity: .9;
+
+  background: pink;
+  text-align: center;
+}
+
+.btn-start:hover {
+   opacity: 1;
+   border: 3px solid blue;
+}
