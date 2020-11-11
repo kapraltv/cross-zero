@@ -1,2 +1,2 @@
 # cross-zero
-react cross-zero
+react aplication cross-zero
